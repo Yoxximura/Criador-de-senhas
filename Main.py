@@ -6,7 +6,7 @@ simbolos = ['!', '#', '$', '%', '&', '(', ')', '*', '+']
 print('Bem-vindos ao criador de senhas!!!')
 nr_letras = int(input('Quantas letras você quer na sua senha? \n'))
 nr_numeros = int(input('Quantos números você quer na sua senha? \n'))
-nr_simbolos = int(input('Quatos símbolos você quer na sua senha? \n'))
+nr_simbolos = int(input('Quantos símbolos você quer na sua senha? \n'))
 
 # #Criador de senhas fácil
 # senha = ''
@@ -35,4 +35,5 @@ print(senha)
 senha_final = ''
 for char in senha:
     senha_final += char
+
 print(f'Sua senha é: ', senha_final)
